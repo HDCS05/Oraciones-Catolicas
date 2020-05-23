@@ -1,0 +1,87 @@
+.gcolor {
+	color: green;
+}
+
+.ocolor {
+	color: orange;
+}
+
+.bcolor {
+	color: blue;
+}
+
+.wcolor {
+	color: white;
+}
+
+.letterpmarker {
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+.lettercourgette {
+	font-family: 'Courgette', cursive;
+	text-align: justify;
+}
+
+.letterlobster {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+
+.doublef {
+	font-size: 2em;
+}
+
+.triplef {
+	font-size: 3em;
+}
+
+.footwalt {
+	color: lightskyblue;
+	font-family: 'WaltographRegular', cursive;
+	text-align: center;
+	font-size: 2em;
+}
+
+.imagesize {
+	height: 175px;
+	width: 175px;
+}
+
+.gallery {
+	display: inline-block;
+}
+
+.atcenter {
+	text-align: center;
+}
+
+.firstcap {
+	text-transform: capitalize;
+}
+
+input[type=text] {
+    color: blue;
+    text-transform: capitalize;
+}
+
+body {
+	background-image: url("https://media.giphy.com/media/HNgYIaejUx9u0/giphy.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body h1 {
+	color: yellow;
+	font-family: 'WaltographRegular', cursive;
+	text-align: center;
+	font-size: 3em;
+}
+
+body h2 {
+	color: white;
+	font-family: 'WaltographRegular', cursive;
+	text-align: center;
+	font-size: 4em;
+}
