@@ -2,12 +2,12 @@
 	/*height: (vh-100px);*/
 	height: calc(100vh - 20vmin);
 	width: calc(100vw - 20vmin);
-	border: 2px solid white;
+	/*border: 2px solid white;*/
 }
 
 .borderFrame {
-	border-radius: 10px;
-	border: 5px double lightskyblue;
+	/*border-radius: 10px;
+	border: 5px double lightskyblue;*/
 	height: 100%;
 	width: 100%;
 }
@@ -27,14 +27,15 @@
 .xycenter {
 	/*min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
 	/*min-height: 100vh; /* These two lines are counted as one :-)       */
-	/*display: flex;*/
+	display: flex;
 	/*flex-direction: column;*/
-	/*align-items: stretch;*/
-	/*align-content: center;*/
-	/*justify-content: center;*/
-	/*flex-wrap: wrap;*/
-	height: 100%;
-	width: 100%;
+	/*align-items: center;*/
+	/*align-self: center;*/
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+	/*height: 100%;
+	width: 100%;*/
 }
 
 .boxFooter {
