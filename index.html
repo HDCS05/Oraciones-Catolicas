@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 		<!-- special google fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Parisienne&display=swap" rel="stylesheet">
 
 		<!-- Custom files -->
 		<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
@@ -23,71 +23,114 @@
 
 	<body>
 
-		<div class="text-center wcolor triplef">
-			<label>Oraciones Católicas</label>
+		<!-- The Modal -->
+		<div class="modal" id="myModal">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+
+		      <!-- Modal Header -->
+		      <!--<div class="modal-header">
+		        <h4 class="modal-title">Modal Heading</h4>
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		      </div>-->
+
+		      <!-- Modal body -->
+		      <div class="modal-body">
+		        <iframe src="assets/Oraciones/Letanias.html" class="borderFrame">Letanías</iframe>
+		      </div>
+
+		      <!-- Modal footer -->
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		      </div>
+
+		    </div>
+		  </div>
 		</div>
 
-		<div class="container-fluid box1">
+		<div class="modal" id="myModal2">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <!-- Modal body -->
+		      <div class="modal-body">
+		        <iframe src="assets/Oraciones/MiguelArcangel.html" class="borderFrame">Oración a San Miguel Arcángel</iframe>
+		      </div>
+		      <!-- Modal footer -->
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 
-			<!--<div class="card">
+		<div class="modal" id="myModal3">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <!-- Modal body -->
+		      <div class="modal-body">
+		        <iframe src="assets/Oraciones/TeDeum.html" class="borderFrame">Te Deum</iframe>
+		      </div>
+		      <!-- Modal footer -->
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 
-				<iframe src="assets/Oraciones/Letanias.html" class="bordesFrame">Letanias</iframe>-->
+		<div class="modal" id="myModal4">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <!-- Modal body -->
+		      <div class="modal-body">
+		        <iframe src="assets/Oraciones/VenEspirituSanto.html" class="borderFrame">Ven Espíritu Santo</iframe>
+		      </div>
+		      <!-- Modal footer -->
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div>
+			<h1><b>Oraciones Católicas</b></h1>
+		</div>
+
+		<div class="container-fluid boxContent">
+
+			<!-- Button to Open the Modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+			  Letanía Lauretana
+			</button>
+
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+			  Oración a San Miguel Arcángel
+			</button>
+
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+			  Te Deum
+			</button>
+
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">
+			  Ven Espíritu Santo
+			</button>
+			
+			<!--<div class="card border-danger xycenter">-->
+
+				<!--<iframe src="assets/Oraciones/Letanias.html" class="borderFrame">Letanias</iframe>-->
 
 				<!--<div class="card-header">
 					<h3 class="card-title">card title</h3>
 				</div>-->
-				<!--<div class="card-body">
-				  <iframe src="assets/Oraciones/Letanias.html" class="bordesFrame">Letanias</iframe>
+				<!--<div class="card-body noPadding">
+				  <iframe src="assets/Oraciones/Letanias.html" class="borderFrame">Letanias</iframe>
 				</div>-->
 				<!--<div class="card-footer">Copyright &copy; 2020 Hilton DCS</div>-->
 
 			<!--</div>-->
-
-			<div class="accordion" id="accordionExample">
-			  <div class="card">
-			    <div class="card-header" id="headingOne">
-			      <h2 class="mb-0">
-			        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-			          Collapsible Group Item #1
-			        </button>
-			      </h2>
-			    </div>
-
-			    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-			      <div class="card-body">
-			        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-			      </div>
-			    </div>
-			  </div>
-			  <div class="card">
-			    <div class="card-header" id="headingTwo">
-			      <h2 class="mb-0">
-			        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-			          Collapsible Group Item #2
-			        </button>
-			      </h2>
-			    </div>
-			    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-			      <div class="card-body">
-			        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-			      </div>
-			    </div>
-			  </div>
-			  <div class="card">
-			    <div class="card-header" id="headingThree">
-			      <h2 class="mb-0">
-			        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-			          Collapsible Group Item #3
-			        </button>
-			      </h2>
-			    </div>
-			    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-			      <div class="card-body">
-			        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-			      </div>
-			    </div>
-			  </div>
-			</div>
+			
+			
 
 			<!--<div class="card bg-primary text-white">
 			    <div class="card-body">Primary card</div>
@@ -95,8 +138,8 @@
 
 		</div>
 
-		<div class="text-center bcolor">
-			<label><b>Copyright &copy; 2020 Hilton DCS</b></label>
+		<div class="text-center">
+			<label class="boxFooter"><b>Copyright &copy; 2020 Hilton DCS</b></label>
 		</div>
 
 		<!-- Call the Javascript code -->

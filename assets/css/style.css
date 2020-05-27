@@ -1,118 +1,65 @@
-.gcolor {
-	color: green;
+.boxContent {
+	/*height: (vh-100px);*/
+	height: calc(100vh - 20vmin);
+	width: calc(100vw - 20vmin);
+	border: 2px solid white;
 }
 
-.ocolor {
-	color: orange;
-}
-
-.bcolor {
-	color: blue;
-}
-
-.wcolor {
-	color: white;
-}
-
-.ycolor {
-	color: yellow;
-}
-
-.letterpmarker {
-	font-family: 'Permanent Marker', cursive;
-	text-align: center;
-}
-
-.lettercourgette {
-	font-family: 'Courgette', cursive;
-	text-align: justify;
-}
-
-.letterlobster {
-	font-family: 'Lobster', cursive;
-	text-align: center;
-}
-
-.doublef {
-	font-size: 2em;
-}
-
-.triplef {
-	font-size: 3em;
-}
-
-.footwalt {
-	color: lightskyblue;
-	font-family: 'WaltographRegular', cursive;
-	text-align: center;
-	font-size: 2em;
-}
-
-.imagesize {
-	height: 175px;
-	width: 175px;
-}
-
-.gallery {
-	display: inline-block;
-}
-
-.atcenter {
-	text-align: center;
-}
-
-.firstcap {
-	text-transform: capitalize;
-}
-
-.box1 {
-	height: 75vh;
-}
-
-
-.bordesFrame {
+.borderFrame {
 	border-radius: 10px;
-	border: 5px solid lightskyblue;
+	border: 5px double lightskyblue;
 	height: 100%;
+	width: 100%;
 }
 
 .card {
-	background-color: rgba(245, 245, 245, 0.9);
+	background-color: rgba(245, 245, 245, 0.8);
+}
+
+.noPadding {
+	padding: 0;
+}
+
+.modal-body {
+    height: 75vh;
 }
 
 .xycenter {
 	/*min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
 	/*min-height: 100vh; /* These two lines are counted as one :-)       */
-	display: flex;
+	/*display: flex;*/
 	/*flex-direction: column;*/
-	align-items: stretch;
+	/*align-items: stretch;*/
 	/*align-content: center;*/
-	justify-content: center;
-	flex-wrap: wrap;
+	/*justify-content: center;*/
+	/*flex-wrap: wrap;*/
+	height: 100%;
+	width: 100%;
 }
 
-input[type=text] {
-    color: blue;
-    text-transform: capitalize;
+.boxFooter {
+	border-radius: 15px 50px;
+	color: white;
+	background: SeaGreen;
+	/*padding: 20px;*/
+	width: 50vw;
+	opacity: 0.6;
+	font-size: 2.4vmin;
+	height: 3.4vmin;
+	margin-top: 0.6em;
 }
 
 body {
 	background-image: url("../images/basilica2.jpg");
 	background-size: 100vw 100vh;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-color: lightblue;
 }
 
 body h1 {
 	color: yellow;
-	font-family: 'WaltographRegular', cursive;
+	font-family: 'Parisienne', cursive;
 	text-align: center;
-	font-size: 3em;
-}
-
-body h2 {
-	color: white;
-	font-family: 'WaltographRegular', cursive;
-	text-align: center;
-	font-size: 4em;
+	font-size: 9.5vmin;
+	height: 10.5vmin;
 }
