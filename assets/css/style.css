@@ -54,6 +54,10 @@
 	margin-top: 0.6em;
 }
 
+.modal-content {
+	background-color: rgba(245, 245, 245, 0.8);
+}
+
 body {
 	background-image: url("../images/basilica2.jpg");
 	background-size: 100vw 100vh;
