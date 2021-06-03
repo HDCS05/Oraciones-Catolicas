@@ -6,9 +6,10 @@ h1 {
 p {
 	font-size: 1.6em;
 	text-align: justify;
+	margin: 1em;
 }
 
-/* Rounded border */
+/* Rounded border - Divider */
 hr.rounded {
   border-top: 8px solid navy;
   border-radius: 5px;
