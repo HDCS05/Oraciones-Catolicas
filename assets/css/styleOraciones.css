@@ -1,6 +1,7 @@
 h1 {
 	font-size: 2.1em;
 	text-align: center;
+	font-weight: bold;
 }
 
 p {
@@ -13,6 +14,11 @@ p {
 hr.rounded {
   border-top: 8px solid navy;
   border-radius: 5px;
+}
+
+.SegundoCoro {
+	color: navy;
+	font-weight: bold;
 }
 
 /*body {
