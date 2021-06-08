@@ -12,7 +12,7 @@ p {
 
 /* Rounded border - Divider */
 hr.rounded {
-  border-top: 8px solid navy;
+  border-top: 8px solid darkseagreen;
   border-radius: 5px;
 }
 
