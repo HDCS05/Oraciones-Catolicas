@@ -21,6 +21,11 @@ hr {
 	font-weight: bold;
 }
 
+p.AlignC {
+	text-align: center;
+}
+
+
 /*body {
 	background-color: lightgray;
 }*/
